@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ Thống Thi Nghiêm Túc - GV Thanh Trang</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #121212;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background: #1e1e1e;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+            max-width: 500px;
+            width: 90%;
+            border: 1px solid #2b5a8f;
+        }
+
+        h1 {
+            color: #ffcc00;
+            margin-bottom: 10px;
+            font-size: 26px;
+        }
+
+        h2 {
+            color: #2b5a8f;
+            margin-bottom: 30px;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .p-desc {
+            color: #ccc;
+            font-size: 15px;
+            margin-bottom: 30px;
+        }
+
+        .btn-group {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .btn-exam {
+            display: block;
+            padding: 15px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            background: #2b5a8f;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-exam:hover {
+            background: #3a75b8;
+            transform: translateY(-2px);
+        }
+
+        .btn-exam.listening {
+            border-left: 5px solid #ffcc00;
+        }
+
+        .btn-exam.reading {
+            border-left: 5px solid #00ccff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>HỆ THỐNG THI NGHIÊM TÚC</h1>
+        <h2>GV THANH TRANG</h2>
+        <p class="p-desc">Vui lòng chọn phần thi bên dưới để bắt đầu làm bài. Hãy đảm bảo đường truyền mạng ổn định trước khi bấm chọn.</p>
+        
+        <div class="btn-group">
+            <a href="LISTENING.html" class="btn-exam listening">PHẦN THI LISTENING (NGHE)</a>
+            <a href="READING.html" class="btn-exam reading">PHẦN THI READING (ĐỌC)</a>
+        </div>
+    </div>
+
+</body>
+</html>
